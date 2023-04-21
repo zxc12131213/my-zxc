@@ -3,6 +3,12 @@
     background: black;
   }
   .ant-pro-sider {
+    .ant-pro-sider-collapsed-button {
+      background-color: rgba($color: pink, $alpha: 1);
+      svg {
+        color: black;
+      }
+    }
     .ant-pro-sider-logo > a > img {
       border-radius: 11px;
     }
