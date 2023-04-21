@@ -1,0 +1,35 @@
+.ant-pro-layout {
+  .ant-pro-layout-bg-list {
+    background: black;
+  }
+  .ant-pro-sider {
+    .ant-pro-sider-logo > a > img {
+      border-radius: 11px;
+    }
+    .ant-pro-sider-logo > a > h1 {
+      color: white;
+    }
+    .anticon-heart {
+      color: pink;
+    }
+    .ant-menu-item-selected {
+      color: white;
+      background-color: rgba($color: white, $alpha: 0.5);
+    }
+    .ant-layout-sider-children {
+      border-color: rgba($color: white, $alpha: 0.5);
+    }
+    .ant-pro-sider-logo {
+      border-color: rgba($color: white, $alpha: 0.5);
+    }
+  }
+  .ant-pro-sider-actions {
+    .ant-avatar-sm {
+      width: 0;
+    }
+    .umi-plugin-layout-name {
+      color: white;
+      margin-left: -10px;
+    }
+  }
+}

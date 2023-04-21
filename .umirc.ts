@@ -1,7 +1,13 @@
 import { defineConfig } from '@umijs/max';
 
 export default defineConfig({
-  antd: {},
+  antd: {
+    theme: {
+      token: {
+        colorPrimary: 'pink',
+      },
+    },
+  },
   access: {},
   model: {},
   initialState: {},
@@ -15,6 +21,7 @@ export default defineConfig({
       redirect: '/home',
     },
     {
+      icon: 'HeartFilled',
       name: '首页',
       path: '/home',
       component: './Home',
@@ -22,4 +29,3 @@ export default defineConfig({
   ],
   npmClient: 'pnpm',
 });
-
