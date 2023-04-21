@@ -1,4 +1,5 @@
 import { defineConfig } from '@umijs/max';
+import routes from './src/routes';
 
 export default defineConfig({
   antd: {
@@ -15,17 +16,6 @@ export default defineConfig({
   layout: {
     title: '超早睡超晚起',
   },
-  routes: [
-    {
-      path: '/',
-      redirect: '/home',
-    },
-    {
-      icon: 'HeartFilled',
-      name: '首页',
-      path: '/home',
-      component: './Home',
-    },
-  ],
+  routes: routes,
   npmClient: 'pnpm',
 });
