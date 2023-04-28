@@ -24,13 +24,13 @@
     // 线条
     .ant-layout-sider-children,
     .ant-pro-sider-logo {
-      border-color: rgba($color: white, $alpha: 0.5);
+      border-color: rgba($color: pink, $alpha: 0.5);
     }
     // 收起图标
     .ant-pro-sider-collapsed-button {
-      background-color: rgba($color: pink, $alpha: 1);
+      background-color: rgba($color: pink, $alpha: 0.8);
       svg {
-        color: black;
+        color: white;
       }
     }
     // 侧边栏footer
